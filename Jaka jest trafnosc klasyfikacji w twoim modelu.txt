@@ -1,0 +1,7 @@
+Jaka jest trafnoœæ klasyfikacji w twoim modelu?
+Trafnoœæ klasyfikacji w moim modelu wynosi 0,8
+Zosta³a wyliczona przy u¿yciu standardowego wzoru:
+n=n1/n2
+
+n1-liczba poprawnie sklasyfikowanych przyk³adów testowych
+n2-liczba przyk³adów testowych

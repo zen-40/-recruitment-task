@@ -1,0 +1,10 @@
+Jakiej funkcji aktywacyjnej u¿y³eœ?
+Moja funckja aktywacyjna to:
+def multi_layer_perceptron_xor(x, weights, biases):
+
+    hidden_layer1 = tf.add(tf.matmul(x, weights['w_h1']), biases['b_h1'])
+    hidden_layer1 = tf.nn.sigmoid(hidden_layer1)
+
+    out_layer = tf.add(tf.matmul(hidden_layer1, weights['w_out']), biases['b_out'])
+
+    return out_layer

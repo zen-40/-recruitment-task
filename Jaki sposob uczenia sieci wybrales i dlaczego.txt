@@ -1,0 +1,2 @@
+Jaki sposób uczenia sieci wybra³eœ i dlaczego?
+Wybra³em nadzorowany algorytmu uczenia MLP. Wybór jest podyktowany faktem koniecznoœci rozró¿nienia danych które nie s¹ roz³¹czne liniowo (jest koniecznoœæ rozró¿nienia dwóch zbiorów w zwi¹zku z zasad¹ dzia³ania bramki XOR przyjmuj¹c¹ wartoœæ prawdziw¹ w tedy gdy jedna i tylko jedna wartoœæ q jest prawdziwa).

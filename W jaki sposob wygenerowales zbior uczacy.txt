@@ -1,0 +1,19 @@
+W jaki sposób wygenerowa³eœ zbiór ucz¹cy?
+Wygenerowanie zbioru ucz¹cego:
+x = np.array([[0, 0], [0, 1], [1, 0], [1, 1]], np.float32)  # 4x2, input
+y = np.array([0, 1, 1, 0], np.float32)                      # 4, correct output, AND operation
+y = np.reshape(y, [4,1])                                    # convert to 4x1
+
+# trainum_inputg data and labels
+X = tf.placeholder('float', [None, num_input])     # training data
+Y = tf.placeholder('float', [None, num_output])    # labels
+
+# weights and biases
+weights = {
+    'w_h1' : tf.Variable(tf.random_normal([num_input, num_hidden1])), # w1, from input layer to hidden layer 1
+    'w_out': tf.Variable(tf.random_normal([num_hidden1, num_output])) # w2, from hidden layer 1 to output layer
+}
+biases = {
+    'b_h1' : tf.Variable(tf.zeros([num_hidden1])),
+    'b_out': tf.Variable(tf.zeros([num_output]))
+}

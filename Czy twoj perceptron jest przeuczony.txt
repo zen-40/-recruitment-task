@@ -1,0 +1,2 @@
+Czy twój perceptron jest przeuczony?
+Nie mój perceptron nie jest przeuczony, nie wystêpuje w moim przypadku problem nadmiernego dopasowania danych który powoduje przyjmowanie bardzo osobliwych kszta³tów w ¿aden sposób niepowi¹zanych z modelowan¹ rzeczywist¹ funkcj¹.
